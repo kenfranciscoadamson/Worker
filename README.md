@@ -14,3 +14,4 @@ Notes:
 8. Additional notes are included as comments for each business object if available.
 9. Navigating through several business objects are a hassle so I organized them according to their respective path at Oracle Fusion VBO (View Business Object).
 10. Each Business Objects' data loaded are DISTINCT.
+11. CASE() statements and nvl() expressions are used to avoid 'no data error' unless the main table has actually no data itself.
