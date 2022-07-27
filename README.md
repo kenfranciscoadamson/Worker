@@ -15,3 +15,11 @@ Notes:
 9. Navigating through several business objects are a hassle so I organized them according to their respective path at Oracle Fusion VBO (View Business Object).
 10. Each Business Objects' data loaded are DISTINCT.
 11. CASE() statements and nvl() expressions are used to avoid 'no data error' unless the main table has actually no data itself.
+12. LEFT JOIN(s) is/are necessary for the main table to retain its PK (Primary Key) which is the best reference for all queries.
+13. The code is divided into two (optional), the primary attributes are required at VBO (View Business Object) of Oracle Fusion, is displayed at the top. These attributes are either required or for new records only, also included are User Keys for the required/for new records attributes. So the upper part or first division displays the attributes for the reconciliation report. The lower part or second division are optional but can easily be displayed unto the said report.
+14. Additionally, the following auditing attributes are to be displayed on the reports:
+	a. CreatedBy
+	b. CreationDate
+	c. LastUpdatedBy
+	d. LastUpdateDate
+	The attribute 'LastUpdateLogin' will not be displayed since it makes no sense due to its hash and unreadable value.
