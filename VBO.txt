@@ -1,0 +1,30 @@
+Worker
+	External Identifier
+	Person Address
+	Person Citizenship
+	Person Delivery Method
+	Person Drivers License
+	Person E-Mail
+	Person Ethnicity
+	Person Image
+	Person Legislative Data
+	Person Name
+	Person National Identifier
+	Person Passport
+	Person Phone
+	Person Religion
+	Person Visa
+	Seniority Date
+	User Information
+		Person User Manual Roles
+	Work Relationship
+		Employment Terms
+			Assignment
+				Assignment Eligible Job
+				Assignment Extra Information
+				Assignment Grade Steps
+				Assignment Supervisor
+				Seniority Hour
+				Working Hour Pattern
+			Contract
+	Worker Extra Information
